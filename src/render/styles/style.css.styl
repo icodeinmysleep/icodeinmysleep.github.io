@@ -8,13 +8,19 @@ set-bg-size(setting) {
 }
 
 span-background(path) {
-  background url(path) no-repeat center center fixed
+  background url(path) no-repeat center center
   set-bg-size(contain)
 }
 
-html
+.bg-image
   span-background('/images/teaser/char1-teaser.png')
   background-color #FFD128
+  height 100%
+  width 100%
+  position fixed
+  top 0
+  left 0
+  z-index 0
 
 .bottom-right
   position absolute
