@@ -1,6 +1,7 @@
 {
-  "name": "twitter-bootstrap-jade.docpad",
+  "name": "i-code-in-my-sleep",
   "dependencies": {
-    "components-bootstrap": "~3.1.1"
+    "components-bootstrap": "~3.1.1",
+    "github-fork-ribbon-css": "0.1.1"
   }
 }

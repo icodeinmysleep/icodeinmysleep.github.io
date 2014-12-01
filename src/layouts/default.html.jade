@@ -12,6 +12,9 @@
 - scripts.add(["/vendor/components-bootstrap/js/bootstrap.js"])
 - styles.add(["/vendor/components-bootstrap/css/bootstrap.css"])
 
+//- Github Fork Ribbon
+- styles.add(["/vendor/github-fork-ribbon-css/gh-fork-ribbon.css"])
+
 //- Other Scripts
 - scripts.add(["/vendor/log.js","/vendor/modernizr.js"])
 
@@ -66,6 +69,11 @@ html(lang="en")
     // Markup
     .container
       section#content.content!= content
+
+    .github-fork-ribbon-wrapper.left-bottom
+      .github-fork-ribbon
+        a(href=site.links.project) Fork me on GitHub
+
     footer.bottom-right
       div © #{site.author} #{site.date.getFullYear()}
 

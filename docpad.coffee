@@ -13,6 +13,8 @@ docpadConfig =
       oldUrls: [
         'icodeinmysleep.github.io'
       ]
+      links:
+        project: "https://github.com/jbatte47/icodeinmysleep"
       title: "I Code in my Sleep"
       url: "http://icodeinmysleep.com"
 
