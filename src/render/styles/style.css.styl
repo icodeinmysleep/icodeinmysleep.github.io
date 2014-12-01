@@ -1,0 +1,28 @@
+bottom-height = 30px
+
+set-bg-size(setting) {
+  -webkit-background-size setting
+  -moz-background-size setting
+  -o-background-size setting
+  background-size setting
+}
+
+span-background(path) {
+  background url(path) no-repeat center center fixed
+  set-bg-size(contain)
+}
+
+html
+  span-background('/images/teaser/char1-teaser.png')
+  background-color #FFD128
+
+.bottom-right
+  position absolute
+  bottom 0px
+  right 10px
+  text-align right
+  height bottom-height
+
+.footnote
+  font-style italic
+  font-size 12px

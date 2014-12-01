@@ -1,0 +1,51 @@
+{
+  "name": "i-code-in-my-sleep",
+  "version": "0.0.0",
+  "description": "I Code in my Sleep: The Open Source Web Comic",
+  "homepage": "https://github.com/jbatte47/icodeinmysleep",
+  "keywords": [
+    "open source",
+    "web comic"
+  ],
+  "author": "John Batte <jbatte@gmail.com> (http://johnbatte.me)",
+  "maintainers": [
+    "John Batte <jbatte@gmail.com> (http://johnbatte.me)"
+  ],
+  "contributors": [
+    "John Batte <jbatte@gmail.com> (http://johnbatte.me)"
+  ],
+  "bugs": {
+    "url": "https://github.com/jbatte47/icodeinmysleep/issues"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/jbatte47/icodeinmysleep.git"
+  },
+  "engines" : {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-jade": "2.x",
+    "docpad-plugin-related": "2.x",
+    "marked": "*",
+    "bower": "~1"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x",
+    "bower": "~1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install"
+  }
+}
