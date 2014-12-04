@@ -9,7 +9,7 @@ This comic will have a "staff" of writers and artists that contribute to its con
 ## Contributing
 We'll have more concrete rules hammered out soon regarding contribution rules, but we know that concept art, wiki content, and the issue tracker will all be open to public contributions. More details to come regarding adding to the "staff".
 
-### The Universe
+## The Universe
 The Universe is described by this comic through the telling of Arcs, Stories, Events, Moments, and Concepts.
 
 #### Arcs
@@ -27,5 +27,5 @@ Moments are just moments in time. A conversation, or the passing of several minu
 #### Concepts
 Concepts don't exist in time at all; rather, they convey an idea.
 
-### The Basic Premise
+## The Basic Premise
 As the title implies, this comic is ultimately about nerds. Geeks. The Electronically Inclined. The most central Arcs in The Universe will most often revolve around the core of nerds (the Nerdcore? nah...) central to this premise, but other than that, your imagination is the limit. Ninjas and Pirates? Sure. Aliens? Magic? Superheros? Pretty girls that actually speak to the ~~Nerdcore~~ core of nerds? Well, that last one's a bit of a stretch, but yes! Whatever you want!
