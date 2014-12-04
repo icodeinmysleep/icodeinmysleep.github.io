@@ -1,0 +1,25 @@
+.bg-image {
+  background: url("/images/teaser/char1-teaser.png") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #ffd128;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  text-align: right;
+  height: 30px;
+}
+.footnote {
+  font-style: italic;
+  font-size: 12px;
+}
